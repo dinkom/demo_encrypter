@@ -1,0 +1,23 @@
+{
+  "name": "demo_encrypter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Dinko Mihovilovic (dinko@bumblepie.net)",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-jquery": "^3.3.2",
+    "crypto-js": "^3.1.6",
+    "jquery": "^3.1.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.5.2"
+  }
+}
