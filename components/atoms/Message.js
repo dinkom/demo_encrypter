@@ -2,14 +2,14 @@ import React, { PropTypes } from 'react';
 import 'jquery';
 import 'bootstrap-jquery';
 
-export default class Message extends React.Component {
-	render() {
-		return (
-			<p className={this.props.classNames}>{this.props.children}</p>
-		);
-	}
+const Message = (props) => {
+	return (
+		<p className={props.classNames}>{props.children}</p>
+	);
 }
 
 Message.propTypes = {
 	classNames: PropTypes.string
 };
+
+export default Message;
