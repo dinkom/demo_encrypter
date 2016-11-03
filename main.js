@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Encrypter from './components/organisms/Encrypter';
+import DemoEncrypter from './components/organisms/DemoEncrypter';
 
-ReactDOM.render(<Encrypter />, document.getElementById('app'));
+ReactDOM.render(<DemoEncrypter text={'Hello JavaScript Zagreb'} />, document.getElementById('app'));

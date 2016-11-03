@@ -1,6 +1,4 @@
 import React, { PropTypes } from 'react';
-import 'jquery';
-import 'bootstrap-jquery';
 
 export default class Input extends React.Component {
 	render() {

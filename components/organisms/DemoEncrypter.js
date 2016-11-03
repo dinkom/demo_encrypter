@@ -9,7 +9,7 @@ import InputWithMessage from '../molecules/InputWithMessage.js';
 
 import '../../css/bootstrap.min.css';
 
-export default class Encrypter extends React.Component {
+export default class DemoEncrypter extends React.Component {
 	constructor() {
 		super();
 		this.update = this.update.bind(this);
@@ -32,7 +32,7 @@ export default class Encrypter extends React.Component {
 	render() {
 		return (
 			<div className='container'>
-				<Hello text={'Hello JavaScript Zagreb'} />
+				<Hello text={this.props.text} />
 				<InputWithMessage
 					ref='iwm'
 					inputClasses='form-control'

@@ -1,6 +1,4 @@
 import React from 'react';
-import 'jquery';
-import 'bootstrap-jquery';
 
 import Input from '../atoms/Input.js';
 import Message from '../atoms/Message.js';

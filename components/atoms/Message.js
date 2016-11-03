@@ -1,6 +1,4 @@
 import React, { PropTypes } from 'react';
-import 'jquery';
-import 'bootstrap-jquery';
 
 const Message = (props) => {
 	return (
